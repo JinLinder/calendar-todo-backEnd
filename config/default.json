@@ -1,0 +1,4 @@
+{
+    "mongoURI" : "mongodb+srv://Jin:Jin@calendar-with-todo.swg4f.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret": "secret"
+}
