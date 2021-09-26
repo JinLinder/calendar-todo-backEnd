@@ -10,7 +10,6 @@ const EventSchema = mongoose.Schema({
     end: {
         type: Date
     }
-
 });
 
 module.exports = mongoose.model('event', EventSchema)
