@@ -16,11 +16,12 @@ router.get('/', async (req, res,next)=>{
 
 /*Add new events*/
 router.post('/add', function (req, res, next) {
-    const {title, start, end} = req.body;
+    const {title, start, end, id} = req.body;
     req.body = new event ({
             title,
             start,
-            end
+            end,
+            id
     })
     req.body.save()
     res.send("event saved")

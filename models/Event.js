@@ -9,6 +9,9 @@ const EventSchema = mongoose.Schema({
 
     end: {
         type: Date
+    },
+    id: {
+        type: String
     }
 });
 
